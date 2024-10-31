@@ -1,0 +1,92 @@
+.paintingname {
+	font-style: italic;
+	font-weight: lighter;
+	font-variant: normal;
+}
+.paintingnametop {
+	font-style: italic;
+	font-weight: lighter;
+	font-variant: normal;
+	text-align: center;
+}
+.projectstext {
+	font-style: italic;
+	font-weight: lighter;
+	font-variant: normal;
+	text-align: center;
+}
+.paintingdescr {
+	font-style: italic;
+	font-weight: lighter;
+	font-variant: normal;
+}
+.style1 {
+	font-family: "Times New Roman", Times, serif, "Monotype Corsiva";
+	font-weight: bold;
+}
+.style2 {
+	font-size: 36px;
+	color: #507D54;
+	font-style: italic;
+}
+.style3 {
+	font-size: 36px;
+	font-weight: normal;
+	color: #D34539;
+	font-style: italic;
+}
+.style6 {
+	font-size: 36px;
+	font-weight: normal;
+	color: #586383;
+	font-style: italic;
+}
+.style7 {
+	font-size: 36px;
+	font-weight: normal;
+	color: #706245;
+	font-style: italic;
+}
+.style10 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #706245;
+	font-style: italic;
+}
+.style12 {font-size: 16px}
+.bodystyle {
+	background-color: #C0A480;
+}
+img {
+	border: none;
+}
+table.paintingpane {
+}
+table.tablepaintdescr {
+
+}
+td.tdcenterimgcell {
+	text-align: center;
+}
+td.tdleftimgcell {
+	text-align: left;
+}
+td.tdleftpnamecell {
+	text-align: left;
+}
+td.tdnext {
+	text-align: right;
+}
+td.tdpnametop {
+	text-align: center;
+}
+td.tdprevious {
+	text-align: left;
+}
+td.tdrightimgcell {
+	text-align: right;
+}
+td.tdrighpnamecell {
+	text-align: right;
+}
+
