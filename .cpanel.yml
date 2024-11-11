@@ -1,0 +1,9 @@
+deployment:
+  version: 2
+  tasks:
+    - step:
+        name: "Pull Latest Changes from GitHub"
+        deployment_type: "git"
+        repository: "https://github.com/TheoDimov/2024DimovArt.git"
+        branch: "main"
+        directory: "/public_html"
