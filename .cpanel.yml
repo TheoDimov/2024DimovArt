@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/dimov642/public_html/
-    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -R dimovart-react/dist/. $DEPLOYPATH
