@@ -29,13 +29,14 @@ npm run preview
 
 ## HostPapa cPanel deployment
 
-If the server cannot run builds, build locally and deploy the generated `dist/`
-folder from the branch cPanel tracks.
+If the server cannot run builds, build locally and deploy the generated
+`dimovart-react/dist/` folder from the branch cPanel tracks.
 
 ```bash
 npm run build
 ```
 
-Then push the built `dist/` files along with the app source. The included
-[`public/.htaccess`](./public/.htaccess) supports React Router refreshes on
-Apache/cPanel.
+The root [`.htaccess`](/Users/todordimov/Downloads/2024DimovArt/.htaccess)
+rewrites the domain to the React build, and
+[`public/.htaccess`](./public/.htaccess) supports direct access to the build
+folder on Apache/cPanel.

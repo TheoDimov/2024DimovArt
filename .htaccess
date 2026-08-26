@@ -1,10 +1,17 @@
 DirectoryIndex index.htm index.html index.shtml index.xhtml index.wml index.perl index.pl index.plx index.ppl index.cgi index.jsp index.js index.jp index.php4 index.php3 index.php index.phtml default.htm default.html home.htm index.php5 Default.html Default.htm home.html
 
+<IfModule mod_rewrite.c>
+  RewriteEngine On
 
+  RewriteRule ^index\.html$ dimovart-react/dist/index.html [L]
+  RewriteRule ^$ dimovart-react/dist/index.html [L]
 
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
 
-
-
+  RewriteRule ^ dimovart-react/dist/index.html [L]
+</IfModule>
 
 
 suPHP_ConfigPath /home/dimoefj/public_html
