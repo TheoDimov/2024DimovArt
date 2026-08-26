@@ -3,14 +3,11 @@ DirectoryIndex index.htm index.html index.shtml index.xhtml index.wml index.perl
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
-  RewriteRule ^index\.html$ dimovart-react/dist/index.html [L]
-  RewriteRule ^$ dimovart-react/dist/index.html [L]
-
   RewriteCond %{REQUEST_FILENAME} -f [OR]
   RewriteCond %{REQUEST_FILENAME} -d
   RewriteRule ^ - [L]
 
-  RewriteRule ^ dimovart-react/dist/index.html [L]
+  RewriteRule ^ index.html [L]
 </IfModule>
 
 
