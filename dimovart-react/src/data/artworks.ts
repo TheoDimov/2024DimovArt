@@ -51,7 +51,6 @@ const watercolorImagePaths = [
   '/legacy/watercolor/page4/Dakota_from_Central_Park_OneDrive.jpg',
   '/legacy/watercolor/page4/Plaza_Hotel_Bridge_OneDrive.jpg',
   '/legacy/watercolor/page4/Rainy_Morning_NYC.jpg',
-  '/legacy/watercolor/page4/San_Remo_NYC.jpg',
   '/legacy/watercolor/page4/Sunday_Morning_OneDrive.jpg',
   '/legacy/watercolor/page5/43rd_Street_NYC.jpg',
   '/legacy/watercolor/page5/Central_Park_Bridge.jpg',
@@ -59,7 +58,6 @@ const watercolorImagePaths = [
   '/legacy/watercolor/page5/Central_Park_to_Girlfriends_OneDrive.jpg',
   '/legacy/watercolor/page5/End_Of_Summer.jpg',
   '/legacy/watercolor/page5/Horse_Carriage.jpg',
-  '/legacy/watercolor/page5/Maddison_Avenue_and_74th_Str.jpg',
   '/legacy/watercolor/page5/Museum_Mile_OneDrive.jpg',
   '/legacy/watercolor/page5/West_79th_Street.jpg',
   '/legacy/watercolor/page5/Whinter_Play.jpg',
@@ -70,7 +68,6 @@ const watercolorImagePaths = [
   '/legacy/watercolor/page6/CentralParkAlley_OneDrive.jpg',
   '/legacy/watercolor/page6/CentralParkBoats.jpg',
   '/legacy/watercolor/page6/CentralParkGarden.jpeg',
-  '/legacy/watercolor/page6/Grand_Central_OneDrive.jpg',
   '/legacy/watercolor/page6/New_York_Building.jpg',
   '/legacy/watercolor/page6/Queensboro_Bridge_OneDrive.jpg',
   '/legacy/watercolor/page6/Statue_of_Liberty_at_Sunset.jpg',
@@ -79,13 +76,9 @@ const watercolorImagePaths = [
   '/legacy/watercolor/page7/14thStUnionSq.jpeg',
   '/legacy/watercolor/page7/6th_Av_18St.jpg',
   '/legacy/watercolor/page7/79th_St_5Av.jpg',
-  '/legacy/watercolor/page7/84thAndMadison.jpg',
   '/legacy/watercolor/page7/BridgeInFall.jpg',
   '/legacy/watercolor/page7/Saint_Patrick_and_5th_Av.jpg',
-  '/legacy/watercolor/page7/Statue_Of_Liberty.jpg',
   '/legacy/watercolor/page7/Ukrainian_Council.jpg',
-  '/legacy/watercolor/page7/Upstate_NY.jpg',
-  '/legacy/watercolor/page7/West_Broadway.jpg',
 ]
 
 const oilImagePaths = [
@@ -177,7 +170,6 @@ const watercolorTitleOverrides: Record<string, string> = {
     'Dakota from Central Park',
   '/legacy/watercolor/page3/Central_Park_East_Side_Panorama.jpg':
     'Central Park East Side Panorama',
-  '/legacy/watercolor/page7/84thAndMadison.jpg': '84th and Madison',
 }
 
 const fordhamImagePaths = [
