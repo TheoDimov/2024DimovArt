@@ -74,6 +74,7 @@ const watercolorImagePaths = [
   '/legacy/watercolor/page6/Winter_Bridge_NYC_OneDrive.jpg',
   '/legacy/watercolor/page7/14thStUnionSq.jpeg',
   '/legacy/watercolor/page7/6th_Av_18St.jpg',
+  '/legacy/watercolor/page7/79_bravo.jpg',
   '/legacy/watercolor/page7/79th_St_5Av.jpg',
   '/legacy/watercolor/page7/BridgeInFall.jpg',
   '/legacy/watercolor/page7/Saint_Patrick_and_5th_Av.jpg',
