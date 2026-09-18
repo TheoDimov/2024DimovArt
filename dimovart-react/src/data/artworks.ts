@@ -28,6 +28,7 @@ const watercolorImagePaths = [
   '/legacy/watercolor/page2/57th_St_and_5th_Av.jpg',
   '/legacy/watercolor/page2/81_St_and_Madison_Av_OneDrive.jpg',
   '/legacy/watercolor/page2/92nd_and_5_av_OneDrive.jpg',
+  '/legacy/watercolor/page2/Bow_Bridge_Summer.jpg',
   '/legacy/watercolor/page2/Belvedere_Castle_NYC_OneDrive.jpg',
   '/legacy/watercolor/page2/Central_Park_Bow_Bridge.jpg',
   '/legacy/watercolor/page2/Central_Park_Bow_Bridge_In_Fall_OneDrive.jpg',
@@ -156,6 +157,7 @@ const watercolorTitleOverrides: Record<string, string> = {
   '/legacy/watercolor/page2/Flatiron.jpg': 'Flatiron',
   '/legacy/watercolor/page2/Belvedere_Castle_NYC_OneDrive.jpg':
     'Belvedere Castle NYC Sunset',
+  '/legacy/watercolor/page2/Bow_Bridge_Summer.jpg': 'Bow Bridge Summer',
   '/legacy/watercolor/page2/CentralParkSouth_OneDrive2.jpg':
     'Central Park South',
   '/legacy/watercolor/page2/Central_Park_Bow_Bridge_In_Fall_OneDrive.jpg':
@@ -168,6 +170,7 @@ const watercolorTitleOverrides: Record<string, string> = {
     '81 St and Madison Ave',
   '/legacy/watercolor/page4/Dakota_from_Central_Park_OneDrive.jpg':
     'Dakota from Central Park',
+  '/legacy/watercolor/page7/79_bravo.jpg': '79th St Park Entrance',
   '/legacy/watercolor/page3/Central_Park_East_Side_Panorama.jpg':
     'Central Park East Side Panorama',
 }
