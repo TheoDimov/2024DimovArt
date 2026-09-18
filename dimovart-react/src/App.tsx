@@ -181,7 +181,7 @@ function ArtworksPage() {
               {filteredGallery[activeImageIndex].title} —{' '}
               {filteredGallery[activeImageIndex].medium}
             </p>
-            {filteredGallery[activeImageIndex].category === 'watercolor' ? (
+            {['watercolor', 'europe'].includes(filteredGallery[activeImageIndex].category) ? (
               <a
                 className="purchase-link"
                 href={getPurchaseLink(filteredGallery[activeImageIndex].title)}
