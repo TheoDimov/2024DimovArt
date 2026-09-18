@@ -66,7 +66,6 @@ const watercolorImagePaths = [
   '/legacy/watercolor/page6/8th_Street_NYC.jpg',
   '/legacy/watercolor/page6/After_the_Rain.jpg',
   '/legacy/watercolor/page6/CentralParkAlley_OneDrive.jpg',
-  '/legacy/watercolor/page6/CentralParkBoats.jpg',
   '/legacy/watercolor/page6/CentralParkGarden.jpeg',
   '/legacy/watercolor/page6/New_York_Building.jpg',
   '/legacy/watercolor/page6/Queensboro_Bridge_OneDrive.jpg',
