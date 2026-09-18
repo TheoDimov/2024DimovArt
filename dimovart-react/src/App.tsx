@@ -181,14 +181,16 @@ function ArtworksPage() {
               {filteredGallery[activeImageIndex].title} —{' '}
               {filteredGallery[activeImageIndex].medium}
             </p>
-            <a
-              className="purchase-link"
-              href={getPurchaseLink(filteredGallery[activeImageIndex].title)}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Buy Print Online (16x20 inches)
-            </a>
+            {filteredGallery[activeImageIndex].category === 'watercolor' ? (
+              <a
+                className="purchase-link"
+                href={getPurchaseLink(filteredGallery[activeImageIndex].title)}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Buy Print Online (16x20 inches)
+              </a>
+            ) : null}
           </div>
         </div>
       ) : null}
